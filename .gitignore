@@ -2,8 +2,11 @@ node_modules/
 .history
 .idea
 .env
+.vscode
 
 .DS_Store
 dist/
 allure-results
+
+package-lock.json
 
