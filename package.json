@@ -27,7 +27,7 @@
     "test": "^0.6.0"
   },
   "peerDependencies": {
-    "bsv": "^1.5.6"
+    "bsv": "github:Olbalabsteam/g2c-bsv#bsv-legacy"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
