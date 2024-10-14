@@ -7,6 +7,5 @@ node_modules/
 .DS_Store
 dist/
 allure-results
-
 package-lock.json
 
