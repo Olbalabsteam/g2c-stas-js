@@ -1,9 +1,9 @@
 import commonjs from "@rollup/plugin-commonjs";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import { terser } from "rollup-plugin-terser";
-import globals from "rollup-plugin-node-globals";
+// import globals from "rollup-plugin-node-globals";
 import json from "@rollup/plugin-json";
-import builtins from "rollup-plugin-node-builtins";
+import builtins from "rollup-plugin-polyfill-node";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 
 const config = {
@@ -38,7 +38,7 @@ const config = {
   plugins: [
     commonjs(),
     peerDepsExternal(),
-    globals(),
+   // globals(),
     builtins(),
     nodeResolve(),
     terser(),
